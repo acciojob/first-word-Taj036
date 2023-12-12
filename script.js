@@ -11,11 +11,14 @@ function firstWord(s) {
 			ans += key ;
 		}
 	}
+	
 	return ans ;
 }
+
 
 
 // Do not change the code below
 
 const s = prompt("Enter String:");
 alert(firstWord(s));
+
